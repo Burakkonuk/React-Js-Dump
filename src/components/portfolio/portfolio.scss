@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+.portfolio{
+    background-image: url("../../../bg.jpg"); 
+    background-color: white;
+    position: relative;
+    
+    .imgContainer{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: absolute;
+        flex-direction: column;
+
+        h3{
+            height: 50px;
+            width: 250px;
+            font-size: 25px;
+            font-style: italic;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            color: yellow;
+            position: absolute;
+            padding-bottom: 300px;
+            
+        }
+        .quoteContainer1{
+                height: 200px;
+                width: 700px;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                transition: all 0.5s ease;
+                overflow: hidden;
+                &:hover{
+                    
+                    background-color: rgb(13, 3, 31);;
+                    border: thin solid white
+                    
+                }
+            h3{
+                padding-left: 12px;
+                padding-top: 3px;
+                text-align: center;
+                height: 200px;
+                width: 650px;
+                overflow: hidden;
+                font-family: 'Raleway', sans-serif;
+                font-size: 20px;
+                color: yellow;
+                position: relative;
+            }
+            
+        }
+            .iconContainer{
+                height: 55px;
+                width: 500px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                position: relative;
+                flex-direction: row;
+                padding-top: 10px;
+                z-index:3;
+                transition: all 1s ease;
+                border-bottom: thin solid orange;
+                border-radius: 10px;
+                color: orange;
+                &:hover{
+                    background-color: rgb(19, 3, 44);
+                    border: thin solid orange;  
+                }
+                h1{
+                    text-decoration: none;
+                    list-style: none;
+                    color: inherit;
+                    height: 40px;
+                    width: 40px;
+                    overflow: hidden;
+                    padding-right: 20px;
+                    transform: rotate(-45deg);
+                    transition: all 0.5s ease;
+                    transform-origin:center;
+
+                    &:hover{
+                    
+                        color: blue;
+                        transform: rotate(10deg);
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        
+                            
+                    }
+                }
+                
+
+            
+
+              
+            }
+
+            
+        
+        
+    }
+
+    
+
+    
+}   
