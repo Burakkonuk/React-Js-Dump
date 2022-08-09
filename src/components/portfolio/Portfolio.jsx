@@ -7,7 +7,7 @@ export default function Portfolio() {
      <div className="portfolio" id="portfolio">
       
       <div className="imgContainer">
-        
+
             <h3>About Me</h3>
             <div className="quoteContainer1">
               <h3>Hi, my name is Burak and I am a 4th grade student 

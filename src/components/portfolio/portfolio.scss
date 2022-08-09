@@ -36,7 +36,6 @@
                 &:hover{
                     
                     background-color: rgb(13, 3, 31);;
-                    border: thin solid white
                     
                 }
             h3{
@@ -54,7 +53,7 @@
             
         }
             .iconContainer{
-                height: 55px;
+                height: 40px;
                 width: 500px;
                 display: flex;
                 align-items: center;
@@ -68,9 +67,9 @@
                 border-bottom: thin solid orange;
                 border-radius: 10px;
                 color: orange;
+                padding-bottom: 20px;
                 &:hover{
                     background-color: rgb(19, 3, 44);
-                    border: thin solid orange;  
                 }
                 h1{
                     text-decoration: none;
@@ -80,6 +79,7 @@
                     width: 40px;
                     overflow: hidden;
                     padding-right: 20px;
+                    margin-left: 10px;
                     transform: rotate(-45deg);
                     transition: all 0.5s ease;
                     transform-origin:center;

@@ -15,7 +15,7 @@
 
     &.active{
         right: 0;
-        background-color: $mainColor;
+        background-color: rgba(10, 10, 19, 0.582);
     }
     ul{
         margin: 0;
@@ -39,7 +39,7 @@
 
             &:hover{
                 
-                background-color: white;
+                background-color: rgba(128, 128, 128, 0.548);
             }
         }
 

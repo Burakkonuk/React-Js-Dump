@@ -54,6 +54,8 @@
     }
 
     .right{
+        border-left: 8px double darkgrey;
+        
         //background-image: url("../../../introbg.jpg");
         background-size: 1200px;
         background-position-x: center;
@@ -64,6 +66,8 @@
         position: relative;
         transition: all 1s ease;
         flex-direction: column;
+
+        
         h1{
             width: 6em;
             height: 6em;
@@ -76,7 +80,7 @@
             &:hover{
                 text-shadow: 5px 3px 3px rgba(7, 0, 0, 0.479);  
                 color: black;
-                size: 100px
+                size: 100px;
             }
         }
 
@@ -92,7 +96,7 @@
             align-items: center;
             justify-content: center;
             a{
-                transition: all 1s ease;
+                transition: all 0.5s ease;
                 text-decoration: none;
                 height: 100px;
                 width: 250px; 
@@ -103,9 +107,8 @@
                 align-items: center;
                 
                 &:hover{
-                text-shadow: 5px 3px 3px rgba(7, 0, 0, 0.479);  
+                text-shadow: 5px 3px 3px rgba(224, 205, 205, 0.479);  
                 color: black;
-                font-size: 25px;
                 }
             }
         }

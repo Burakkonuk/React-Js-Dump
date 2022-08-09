@@ -1,4 +1,5 @@
 @import "../../global.scss";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 .topbar{
     width: 100%;
     height: 70px;
@@ -9,7 +10,8 @@
     z-index: 3;
     transition: all 1s ease;
     overflow: hidden;
-    border: 3px double darkgray;
+
+    
 
 .wrapper{
     padding: 5px 30px;
@@ -28,7 +30,8 @@
             font-weight: 800;
             text-decoration: none;
             color: inherit;
-            padding-top: 5px;
+            padding-top: 10px;
+            font-family: 'Raleway', sans-serif;
             
                 
             
@@ -43,6 +46,7 @@
         padding-left: 15px;
         font-weight: 700; 
         visibility: visible;
+        font-family: 'Raleway', sans-serif;
         
        }
        .itemContainer2{
@@ -51,6 +55,7 @@
            font-weight: 700;
            visibility: hidden;  
            opacity: 0.4;
+           font-family: 'Raleway', sans-serif;
        }
        
     .right{ 
@@ -60,12 +65,13 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            padding-top: 10px;
             
             cursor: pointer;
             span{
                 width: 100%;
                 height: 3px;
-                background-color: rgb(1, 124, 124) ;
+                background-color: white;
                 transform-origin: left;
                 transition: all 1s ease;
                 
@@ -76,8 +82,7 @@
 
     }
     &.active{
-        background-color: $mainColor;
-        color: whitesmoke;
+        background-color: rgba(10, 10, 19, 0.582);
         transition: all 1s ease;
         .hamburger{
             span{
